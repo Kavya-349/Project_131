@@ -21,3 +21,22 @@ body {
     border: 1px solid black;
     height: 50px;
 }
+
+#ac_page_body {
+    background-image: url("background_img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.back_button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    float: right;
+    margin-right: 30px;
+}
+
+canvas {
+    border: 2px solid pink;
+    border-radius: 10px;
+}
