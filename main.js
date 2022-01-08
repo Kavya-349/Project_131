@@ -1,7 +1,3 @@
-function ac_page() {
-    window.location = "ac.html";
-}
-
 function chair_page() {
     window.location = "chair.html";
 }

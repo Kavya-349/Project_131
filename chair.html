@@ -14,23 +14,17 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body id="ac_page_body">
     <center>
         <h1 class="heading">House Object Detection</h1>
-        <br><br><br>
-        <button onclick="chair_page()" class="links">Chair</button>
-        <br><br>
-        <button onclick="fridge_page()" class="links">Refridgerator</button>
-        <br><br>
-        <button onclick="desk_page()" class="links">Desk</button>
-        <br><br>
-        <button onclick="telephone_page()" class="links">Telephone</button>
-        <br><br>
-        <button onclick="tv_page()" class="links">Television</button>
-        <br><br>
+        
+        <button class="back_button" onclick="back_to_home()">Back</button>
+        <br>
+        <h3 class="btn btn-danger" id="status"></h3>
+
     </center>
 
-    <script src="main.js"></script>
+    <script src="chair.js"></script>
 
 </body>
 </html>
